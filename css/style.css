@@ -1,0 +1,264 @@
+.header {
+	height: 100px;
+	background-color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.container {
+	overflow: hidden;
+	border: 10px solid orange;
+}
+
+.blog {
+	float: left;
+	width: 60%;
+	height: 150px;
+	background-color: green;
+	text-align: center;
+	font-size: 30px;
+}
+
+.contact {
+	float: right;
+	width: 40%;
+	height: 150px;
+	background-color:blue;
+	text-align: center;
+	font-size: 30px;
+}
+
+.head {
+	float: left;
+	width: 25%;
+	height: 100px;
+}
+
+.yellow {
+	background-color: yellow;
+	text-align: center;
+	font-size: 30px;
+}
+
+.tomato {
+	background-color: tomato;
+	text-align: center;
+	font-size: 30px;
+}
+
+.lime {
+	background-color: limegreen;
+	text-align: center;
+	font-size: 30px;
+}
+
+.red {
+	background-color: red;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+
+
+.footer {
+	height: 100px;
+	background-color: black;
+	text-align: center;
+
+}
+
+.header1 {
+	height: 100px;
+	background-color: red;
+}
+
+.container2 {
+	overflow: hidden;
+	border: 10px solid orange;
+
+}
+
+.blog3 {
+	float: left;
+	width: 60%;
+	height: 150px;
+	background-color: green;
+}
+
+.contact4 {
+	float: right;
+	width: 40%;
+	height: 150px;
+	background-color: blue;
+}
+
+.item  {
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.lime {
+	background-color: limegreen;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+
+.container4 {
+	overflow: hidden;
+}
+
+.nav1 {
+	float: left;
+	width: 60%;
+	height: 150px;
+	display: inline;
+	background-color: blue;
+}
+
+.werber2 {
+	float: right;
+	width: 40%;
+	height: 150px;
+	background-color: green;
+}
+
+
+.head1 {
+	float: left;
+	width: 16.66666666666667%;
+	height: 100px;
+}
+
+.yellow {
+background-color: red;
+}
+
+.tomato {
+background-color: tomato;
+}
+
+.lime {
+	background-color: green;
+}
+.green {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+.orange {
+	background-color: orange;
+}
+
+.container5 {
+	overflow: hidden;
+}
+
+.head1 {
+	float: left;
+	width: 60%;
+	height: 150px;
+}
+.head2 {
+	float: right;
+	width: 40%;
+	height: 150px;
+}
+
+h1 {
+	background-color: red;
+}
+
+a {
+	background-color: blue;
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+
+header {
+	background-color: #666;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+/* Container for flexboxes */
+
+section {
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* Style the navigation menu */
+
+nav {
+	 -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Style the content */
+
+article {
+	  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+
+footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+	 section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
